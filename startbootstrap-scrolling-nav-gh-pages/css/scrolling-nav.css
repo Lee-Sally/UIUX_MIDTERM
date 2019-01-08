@@ -1,0 +1,90 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+ 
+ .mySlides {display:none;}
+
+ .services img {
+  border-radius: 50%;
+ }
+
+ body{
+
+  background-color:#ff7473;
+  color:white;
+  font-family: 'Crimson Text', serif;
+  
+ }
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+
+  font-family: 'Lobster', cursive;
+  font-style: italic;
+}
+
+/* Adding my own header color style. */
+.headerStyle{
+
+color: #ffc952
+;background-color: rgb(158, 52, 52);
+
+}
+
+
+.headerStyle:hover{
+  color: #34314c;
+  background-color: rgb(130, 228, 143);
+}
+
+
+header {
+  padding: 300px 0 250px;
+
+  /* Add the following to  include a centered image. */
+ background-image: url("https://www.mysuta.jp/_p/acre/9192/images/pc/b4fdb50b.jpg");
+
+
+ /* Center and scale the image. */
+ background-position: center;  /* This value can also be left, right */
+ background-repeat: no-repeat;
+ background-size: cover;
+
+
+  font-family: 'Staatliches', cursive;
+}
+
+/* @media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+} */
+
+.services
+{
+  background-color:#ffc952
+}
+
+.contact
+{
+
+  background-color:#34314c
+}
+.extra
+{
+
+  background-color:#47b8e0
+
+
+}
+section {
+  padding: 150px 0;
+}
