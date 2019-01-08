@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <!--Lee Soyun, sample file 1.
+    UIUX Class, Bootstrap sample file1, CSSFile-->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title> 
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Edit: Our page's fonts.-->
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text|Lobster|Staatliches" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">SH studio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Instructors</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Class</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="#extra">Videos</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="headerStyle">
+      <div class="container text-center">
+        <h1 class="display-1">Welcome to SoYun and Haesoo's Dance Studio</h1>
+        <p class="lead">Here is the website about SoYun and Haesoo's Dance Studio</p>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="display-3">About</h2>
+            <p class="lead">SH dance studio changes your idea from that dance culture is too difficult and not what I can to a nice experience is enjoyed by everyone.</p>
+            <ul>
+              <li>Client: SH dance studio works in various genres and fields with CJ, SM, YG, JYP, SAMSUNG, LG, 7-ELEVEN, TEDX.</li>
+              <li>Choreography&Training: SH dance studio makes the inside and outside of the country's artists' choreographies and trains. </li>
+             
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="display-3">Intructors</h2>
+            <img src="https://lee-sally.github.io/UIUX-3/1.jpg" alt="instructors" width="600"  >
+
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio velit inventore, expedita quo laboriosam possimus ea consequatur vitae, doloribus consequuntur ex. Nemo assumenda laborum vel, labore ut velit dignissimos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="display-3">Class</h2>
+
+
+            <h2 class="w3-center">Our class </h2>
+
+            <div class="w3-content w3-display-container">
+              <img class="mySlides" src="https://i.ytimg.com/vi/nKG0lVFSJAM/maxresdefault.jpg" style="width:100%">
+              <img class="mySlides" src="https://kpopjunkie101.files.wordpress.com/2014/10/screenshot-79.png" style="width:100%">
+              <img class="mySlides" src="http://blogfiles.naver.net/MjAxODA4MTZfODAg/MDAxNTM0NDAyMzQwNDc0.nrH_4E_Lnd-_5vSVtFrQ7bT5Fh9aqYqg1Bz6PkkJEREg.YQk5FiKTqSw580F6LG8flcQ8KPtkZoMSnTLie2u_Gvcg.JPEG.movedance_hongdae/%C7%D5%C1%A4_%B0%C9%BD%BA%C8%FC%C7%D5%C7%D0%BF%F85.jpg" style="width:100%">
+              <img class="mySlides" src="http://cafefiles.naver.net/MjAxODA0MjNfMTk4/MDAxNTI0NDY4Njc0MTY1.9-cVg3fQBD6pOKH6WDgA75O8NhJ74BClgaK-c-LKKBYg.NHI0p_OzfkK4Z9oVNTOIXjs6HFjvKuN9K3ggvznL4Ekg.JPEG.movedancesw/IMG_4437.JPG" style="width:100%">
+            
+              <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+            </div>
+            
+            <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              if (n > x.length) {slideIndex = 1}
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              x[slideIndex-1].style.display = "block";  
+            }
+            </script>
+            
+
+
+            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="extra" class="extra" >
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                  <h2 class="display-3">Videos</h2>
+          <!-- First Row of our Table. -->
+          <!-- Two Columns. -->
+          <div class="row">
+            
+           
+            <div class= "col-6">
+              <iframe width="350" height="315" src="https://www.youtube.com/embed/J28TxI45QDs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+                <div class= "col-6">
+                
+                <iframe width="350" height="315" src="https://www.youtube.com/embed/SoXGx7FakyU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                
+                
+            </div>
+       </div>
+          
+
+       
+  
+
+
+                   <!-- Second Row of our Table. -->
+          <div class="row">
+            <!-- Three Colmuns. -->
+            
+            <div class= "col-4">
+              <iframe width="230" height="315" src="https://www.youtube.com/embed/dDnYHX7opnk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+          </div>
+            
+            <div class= "col-4">
+              <iframe width="230" height="315" src="https://www.youtube.com/embed/Evm2KlyBRRo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+          </div>
+            
+            <div class= "col-4">
+              <iframe width="230" height="315" src="https://www.youtube.com/embed/iBKOVdhR22c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+          </div>
+            
+             
+          </div>
+   
+   
+   
+        </div>
+   </section>
+
+   
+   
+   
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; 이소윤<br> SH dance studio | 대표 : 이소윤 | 부대표 : 박해수 | 전화 : 010-2750-1813 <Br>
+          대전광역시 서구 대덕대로 193 (둔산동 1044) 5층</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>
